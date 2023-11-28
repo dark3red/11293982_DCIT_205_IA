@@ -1,0 +1,156 @@
+/* Resetting and General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Body Text Styles */
+h3 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    color: rgb(151, 111, 11);
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+/* Section Styles */
+section.blue-background {
+    background-color: rgb(8, 8, 46);
+    color: white; 
+    padding: 20px; 
+}
+
+.section-gap {
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* Main Body Styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+
+/* Sidebar Styles */
+.sidebar {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(8, 8, 46);
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copyright p {
+    font-size: 0.9em;
+}
+
+.contact-info,
+.quick-links,
+.social-media {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Media Queries for Responsive Design */
+.desktop-menu {
+    display: block;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
+
+/* Common Styles for both menus */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(8, 8, 46);
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}

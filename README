@@ -1,0 +1,46 @@
+# 205 IA webpage
+This is a project is to create a website for the computer science department.
+The website is to provide access to information about the computer science department, having updates about events, reading materials and stuudent projects.
+## To clone and set up the project
+1. Make sure git is already installed.
+2. clone the repository to the repo you want using the command prompt. Run the command "git clone https://...........git.
+3. Move into the project directory using the command "cd (my-project).
+4. Start a local server.
+5.  Open the project in a browser.
+
+## My information
+Name: Joel Ayensu Techie-Menson. 
+
+Student ID:11293982
+
+## screenshot of webpages
+HOME PAGE
+![home page](/home%20page%20Capture.PNG)
+
+ABOUT PAGE
+![about page](/about%20page%20Capture.PNG)
+ADMISSION PAGE
+![admissions](/admission%20page%20Capture.PNG)
+ANNOUNCEMENTS
+![Announcement](/ament%20page%20Capture.PNG)
+CONTACTS
+![contacts page](/contacts%20page%20Capture.PNG)
+EVENTS
+![Events page](/events%20page%20Capture.PNG)
+FACULTY
+![faculty page](/faculty%20page%20Capture.PNG)
+FAQs
+![FAQs page](/FAQs%20page%20Capture.PNG)
+RESOURCES
+![resources page](/resources%20page%20Capture.PNG)
+STUDENT PROJECTS
+![student project page](/studentproj%20Capture.PNG)
+
+## Lesson learnt
+1. I learnt how to create tables in html css.
+2. i learn how to make image cards and grid in html css.
+3. I also learnt how to make navigators.
+4. i also learnt how to make a fork and make a pull request.
+5. I also understood how to organize and structure codes to make them meaningful to anyone.
+6. I learnt how to create headers and footers
+

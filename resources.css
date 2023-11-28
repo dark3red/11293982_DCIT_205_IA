@@ -1,0 +1,164 @@
+/* styling for header */
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* styling for nav*/
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(8, 8, 46);
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+/* Body Text Styles */
+h3 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    color: rgb(151, 111, 11);
+}
+
+h2 {
+    text-align: left;
+    margin: 20px 0;
+}
+p{
+    font-size:larger;
+}
+/* Section Styles */
+section.blue-background {
+    background-color: rgb(8, 8, 46);
+    color: white; 
+    padding: 20px; 
+}
+
+.section-gap {
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* Main Body Styles */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+/* Image and Image Frame Styles */
+.image-grid {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.image-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-card h3 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.image-card p {
+    font-size: 20px;
+    font-family: "Poppins", "sans-serif";
+    color: #777;
+}
+image {
+    width:100%;
+    height:auto;
+}
+/* Sidebar Styles */
+.sidebar {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(8, 8, 46);
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copyright p {
+    font-size: 0.9em;
+}
+
+.contact-info,
+.quick-links,
+.social-media {
+    flex: 1;
+    margin-right: 20px;
+}
+
